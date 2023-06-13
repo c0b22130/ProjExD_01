@@ -34,7 +34,7 @@ def main():
         screen.blit(bg_img,[3200-x,0])
         screen.blit(img_lst[tmr%len(img_lst)],[300,200])
         pg.display.update()
-        tmr += 4 
+        tmr += 4
         x=tmr%3200       
         clock.tick(10)
 
